@@ -1,0 +1,11 @@
+{
+  "name": "vitest",
+  "version": "1.0.0",
+  "description": "Version-aware Vitest API, configuration and fixture guidance adapted for inprojects.",
+  "author": {
+    "name": "inprojects AI tools"
+  },
+  "repository": "https://github.com/inprojectspl/antfu-skills",
+  "license": "MIT",
+  "skills": "./skills/"
+}
