@@ -1,3 +1,5 @@
+> inprojects fork: install the focused `vitest` package from `plugin/`. See [distribution and maintenance notes](docs/inprojects/README.md).
+
 # Anthony Fu's Skills
 
 A curated collection of [Agent Skills](https://agentskills.io/home) reflecting [Anthony Fu](https://github.com/antfu)'s preferences, experience, and best practices, along with usage documentation for the tools.
