@@ -1,6 +1,6 @@
 # inprojects distribution
 
-This GitHub fork preserves [antfu/skills](https://github.com/antfu/skills) history. The maintained distribution is **vitest 1.0.0** at `plugin/`, tagged `inprojects-v1.0.0`. The repository root remains the upstream authoring repository, not the installable plugin.
+This GitHub fork preserves [antfu/skills](https://github.com/antfu/skills) history. The maintained distribution is **vitest 1.0.1** at `plugin/`, tagged `inprojects-v1.0.1`. The repository root remains the upstream authoring repository, not the installable plugin.
 
 ## Provenance and scope
 

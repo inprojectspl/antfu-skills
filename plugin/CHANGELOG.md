@@ -7,6 +7,13 @@ and this distribution follows [Semantic Versioning](https://semver.org/spec/v2.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-08
+
+### Changed
+
+- Rewrote the skill description with concrete trigger situations and Polish request phrases, so agents that route by description alone, such as Claude Code, select the skill reliably.
+- Pointed React test-design decisions to the `ui-tests-design` skill.
+
 ## [1.0.0] - 2026-10-08
 
 ### Added
@@ -22,5 +29,6 @@ and this distribution follows [Semantic Versioning](https://semver.org/spec/v2.0
 
 - Scoped discovery to Vitest projects and separated API examples from behavior-test oracles.
 
-[Unreleased]: https://github.com/inprojectspl/antfu-skills/compare/inprojects-v1.0.0...main
+[Unreleased]: https://github.com/inprojectspl/antfu-skills/compare/inprojects-v1.0.1...main
+[1.0.1]: https://github.com/inprojectspl/antfu-skills/compare/inprojects-v1.0.0...inprojects-v1.0.1
 [1.0.0]: https://github.com/inprojectspl/antfu-skills/releases/tag/inprojects-v1.0.0
