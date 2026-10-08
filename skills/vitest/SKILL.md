@@ -1,6 +1,6 @@
 ---
 name: vitest
-description: Version-aware Vitest configuration, assertions, mocking and fixtures. Use for projects that use Vitest or explicitly request it, including React and Vite; preserve the existing runner and project conventions.
+description: Version-aware Vitest API reference covering configuration, CLI, assertions, mocking, fake timers, fixtures, coverage, projects and type tests. Use when configuring Vitest, looking up a Vitest API or option, debugging vi.mock, spies or timers, or adapting to a Vitest major version in a project that already uses Vitest. For deciding which React component tests to write, use ui-tests-design; this skill covers the runner API only. Also use for Polish requests such as "konfiguracja vitest", "mock w vitest" or "coverage w vitest".
 metadata:
   author: Anthony Fu
   version: "2026.9.25"
@@ -13,7 +13,7 @@ Use the installed Vitest version and project configuration as the authority. The
 
 - Read package manifests, lockfiles, test scripts, Vite/Vitest config and setup files. Determine the selected major version, environment, globals mode and existing cleanup. Follow the project's package manager and requested test scope.
 - For another major version, verify the relevant API and defaults in that version's official docs. Do not upgrade Vitest, Vite, Node or TypeScript just to fit a recipe. In particular, v5 defaults for `clearMocks`, inline projects and module mocking differ from older releases.
-- This is an API reference. Follow the project's test-design policy for behaviors, independent expected values and mocking boundaries. A mock returning a configured value demonstrates API syntax, not application correctness.
+- This is an API reference. Follow the project's test-design policy (for React components and hooks, the `ui-tests-design` skill when installed) for behaviors, independent expected values and mocking boundaries. A mock returning a configured value demonstrates API syntax, not application correctness.
 - Restore mocks, globals, environment variables and clocks in teardown or `finally`, including after failed assertions. In React, combine timer advancement with the renderer's `act` and respect Testing Library/user-event version compatibility. See [runtime boundaries](references/best-practices-runtime-boundaries.md).
 - For a plan, report the version assumptions and proposed cases. For a review, cite concrete defects. For implementation, run the narrow relevant command and report its actual result; distinguish unrun examples from verified behavior.
 

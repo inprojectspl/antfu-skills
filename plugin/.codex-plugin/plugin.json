@@ -1,6 +1,6 @@
 {
   "name": "vitest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Version-aware Vitest API, configuration and fixture guidance adapted for inprojects.",
   "author": {
     "name": "inprojects AI tools"
